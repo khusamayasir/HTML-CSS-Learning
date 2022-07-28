@@ -218,6 +218,11 @@
     font-size: 15px;
     cursor: pointer;
     margin-right: 8px;
+    transition: background-color 0.15s;
+  }
+
+  .linkedin-apply-btn:hover {
+    background-color: rgb(5, 57, 109);
   }
 
   .linkedin-save-btn {
@@ -232,7 +237,14 @@
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
+    transition: border-width 0.15s, opacity 0.15s;
   }
+
+  .linkedin-save-btn:hover {
+    border-width: 2px;
+    opacity: 0.5;
+  }
+
 </style>
 
 <button class="linkedin-apply-btn">
@@ -248,6 +260,10 @@
 <style>
   a {
     color: rgb(0, 113, 133);
+  }
+
+  a:hover {
+    color: red;
   }
 
   .intro {
@@ -271,6 +287,15 @@
     font-size: 14px;
     cursor: pointer;
     margin: 8px;
+    transition: background-color 0.15s;
+  }
+
+  .addtocart-btn:hover {
+    background-color: rgb(212, 177, 2);
+  }
+
+  .addtocart-btn:active {
+    opacity: 0.7;
   }
 
   .buy-btn {
@@ -283,6 +308,14 @@
     font-weight: bold;
     font-size: 14px;
     cursor: pointer;
+  }
+
+  .buy-btn:hover {
+    background-color: rgb(224, 138, 8);
+  }
+
+  .buy-btn:active {
+    opacity: 0.7;
   }
 </style>
 
